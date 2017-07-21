@@ -1,0 +1,28 @@
+form {
+	padding: 2em;
+}
+
+#reversed, #alphabetized, #palindrome {
+	margin: 8px;
+	padding: 0;
+	min-height: 5em;
+	border: 5px dashed orange;
+	font-size: 2.5em;
+}
+.row, #palindrome{
+	display: flex;
+	flex-direction: row;
+}
+.col-md-6, #yes, #no {
+	min-width: 40%;
+	text-align: center;
+}
+
+input {
+	width: 30em;
+	border: 3px solid lightblue;
+}
+
+button#reset {
+	float: right;
+}
